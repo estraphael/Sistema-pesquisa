@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+
+.pesquisa {
+    margin: auto;
+    text-align: center;
+}
+
+.pesquisa input {
+    width: 30%;
+    text-align: center;
+}
+
