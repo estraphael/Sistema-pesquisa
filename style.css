@@ -1,9 +1,20 @@
+header {
+    text-align: center;
+}
+
+header img {
+    display: inline-block;
+    width: 15%;
+}
+
 body {
     background: #fefefe;
 }
 
 h1 {
     text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px lightblue;
 }
 
 .pesquisa {
@@ -16,11 +27,19 @@ h1 {
     text-align: center;
 }
 
+.inputpesquisa {
+    border-radius: 8px;
+    background: lightblue;
+    height: 24px;
+    font-size: 16px;
+}
+
 ul li {
     margin: 24px 0;
-    padding: 10px;
+    padding: 24px;
     line-height: 1.5;
     list-style: none;
+    border-radius: 10px;
 }
 
 ul li:hover {
@@ -28,7 +47,7 @@ ul li:hover {
 }
 
 ul li strong {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 ul li a {
