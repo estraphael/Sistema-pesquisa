@@ -5,6 +5,7 @@ header {
 header img {
     display: inline-block;
     width: 15%;
+    margin: 0 24px 0 24px;
 }
 
 body {
@@ -40,6 +41,7 @@ ul li {
     line-height: 1.5;
     list-style: none;
     border-radius: 10px;
+    transition: 400ms;
 }
 
 ul li:hover {
@@ -65,7 +67,6 @@ ul li a {
 ul li a:hover {
     background: rgb(35, 119, 172);
     color: #fefefe;
-    font-weight: bold;
     cursor: pointer;
 }
 
