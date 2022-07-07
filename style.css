@@ -86,5 +86,11 @@ footer p {
     background: lightblue;
 }
 
-
-
+@media screen and (max-width: 400px) {
+    .pesquisa, .inputpesquisa {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+}
