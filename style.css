@@ -1,38 +1,63 @@
-header {
-    text-align: center;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
+/*
+CSS DAS IMAGENS COMENTADAS NO HTML
 header img {
     display: inline-block;
     width: 15%;
     margin: 0 24px 0 24px;
-}
+}*/
 
 body {
     background: #fefefe;
 }
 
-h1 {
+header {
     text-align: center;
-    font-style: italic;
-    text-shadow: 2px 2px lightblue;
 }
 
+.logo img {
+    width: 100%;
+    box-shadow: 5px 5px 5px black;
+}
+
+/*.logo {
+    width: 100%;
+    padding: 0;
+}*/
+
 .pesquisa {
-    margin: auto;
+    margin: 24px auto;
     text-align: center;
 }
 
 .pesquisa input {
-    width: 30%;
+    width: 40%;
+    box-shadow: 5px 5px 5px black;
     text-align: center;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.pesquisa input:hover {
+    width: 60%;
 }
 
 .inputpesquisa {
     border-radius: 8px;
-    background: lightblue;
-    height: 24px;
+    background: #abd7fd;
+    height: 72px;
     font-size: 16px;
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 24px;
 }
 
 ul li {
@@ -45,7 +70,7 @@ ul li {
 }
 
 ul li:hover {
-    background: lightblue;
+    background: #f3d780;
 }
 
 ul li strong {
@@ -65,7 +90,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background: rgb(35, 119, 172);
+    background: #003288;
     color: #fefefe;
     cursor: pointer;
 }
@@ -73,17 +98,15 @@ ul li a:hover {
 footer {
     bottom: 0;
     position: fixed;
-    background-color: #fefefe;
+    background: #abd7fd;
     color: black;
     width: 100%;
-    height: 50px;  
+    height: 34px;  
     text-align: center;
-    line-height: 32px;
 }
 
 footer p {
     font-size: 12px;
-    background: lightblue;
 }
 
 @media screen and (max-width: 400px) {
