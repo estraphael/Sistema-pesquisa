@@ -1,4 +1,3 @@
-
 * {
     padding: 0;
     margin: 0;
@@ -24,6 +23,32 @@ header {
 .logo img {
     width: 100%;
     box-shadow: 5px 5px 5px black;
+    margin: 0 0 12px 0;
+}
+
+nav {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav li {
+    margin: 14px;
+    display: inline;
+    list-style: none;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+nav a:hover {
+    color: #003288;
+    text-decoration: underline;
 }
 
 /*.logo {
@@ -53,14 +78,14 @@ header {
     background: #abd7fd;
     height: 72px;
     font-size: 16px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
-ul {
+.professores {
     margin: 24px;
 }
 
-ul li {
+.professores li {
     margin: 24px 0;
     padding: 24px;
     line-height: 1.5;
@@ -69,15 +94,15 @@ ul li {
     transition: 400ms;
 }
 
-ul li:hover {
+.professores li:hover {
     background: #f3d780;
 }
 
-ul li strong {
+.professores li strong {
     font-size: 22px;
 }
 
-ul li a {
+.professores li a {
     border: 1px solid black;
     border-radius: 10px;
     margin-top: 10px;
@@ -89,7 +114,7 @@ ul li a {
     transition: 400ms;
 }
 
-ul li a:hover {
+.professores li a:hover {
     background: #003288;
     color: #fefefe;
     cursor: pointer;
@@ -110,7 +135,7 @@ footer p {
 }
 
 @media screen and (max-width: 400px) {
-    .pesquisa, .inputpesquisa {
+    nav, .pesquisa, .inputpesquisa {
         width: auto;
     }
     h1 {
