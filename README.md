@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">Uma biblioteca utilizada para filtrar docentes de uma universidade (Unifal), com a finalidade de facilitar a identificação para mapeamentos da Agência de Inovação e Empreendedorismo. 
-Desenvolvido utilizando apenas HTML, CSS e JavaScript, há alerts antes de liberar o acesso à ferramenta, mas serão removidos em algum momento.</p>
+Desenvolvida utilizando apenas HTML, CSS e JavaScript, há alerts antes de liberar o acesso à ferramenta, mas serão removidos em algum momento.</p>
 
 ## :hammer: Funcionalidades do projeto
 
