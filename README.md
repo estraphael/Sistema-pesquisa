@@ -14,7 +14,7 @@ Desenvolvido utilizando apenas HTML, CSS e JavaScript, há alerts antes de liber
 - `Funcionalidade 1`: Busca por docentes a partir do nome;
 - `Funcionalidade 2`: Filtra docentes a partir do curso em que lecionam (ex.: Medicina).
 
-<p align="center">O projeto está hospedado online no GitHub e pode ser acessado em: </p>
+<p align="center">O projeto está hospedado online no GitHub e pode ser acessado em: https://estraphael.github.io/Sistema-pesquisa/</p>
 
 <br>
 <p align="center">Desenvolvido por: Esteferson Raphael L. Alves</p>
