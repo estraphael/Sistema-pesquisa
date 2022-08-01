@@ -106,10 +106,13 @@ nav a:hover {
     font-size: 22px;
 }
 
-.professores li a {
+.professores li strong::before {
+    content: "👨‍🏫";
+}
+
+.professores li p a {
     border: 1px solid black;
     border-radius: 10px;
-    margin-top: 10px;
     padding: 4px;
     background: #cccccc;
     color: black;
@@ -122,6 +125,14 @@ nav a:hover {
     background: #003288;
     color: #fefefe;
     cursor: pointer;
+}
+
+.icone__patentes {
+    margin: 24px 0;
+}
+
+main p {
+    margin: 12px 0;
 }
 
 footer {
