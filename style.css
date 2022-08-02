@@ -131,6 +131,10 @@ nav a:hover {
     margin: 24px 0;
 }
 
+.patented {
+    width: 10%;
+}
+
 main p {
     margin: 12px 0;
 }
