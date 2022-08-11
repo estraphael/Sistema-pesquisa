@@ -16,8 +16,10 @@ function busca(input_field,div){
     }
 }
 
+
 //a 5º linha da função busca estava assim:
 
 //if(di.getAttribute("nome").toLowerCase().match(r) != null)
 
 //tirei o retorno em minúsculo para a busca aceitar letras maiúsculas e minúsculas
+
