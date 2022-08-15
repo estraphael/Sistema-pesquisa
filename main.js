@@ -7,7 +7,7 @@ for(i of document.querySelectorAll('[search]')){
 function busca(input_field,div){
     input_field.onkeyup=function(e){
         for(di of div.children){
-            r  = new RegExp(this.value,"g")
+            r  = new RegExp(this.value,"gi");
             if(di.getAttribute("nome").match(r) != null)
                 di.style.removeProperty('display')
             else
@@ -23,3 +23,10 @@ function busca(input_field,div){
 
 //tirei o retorno em minúsculo para a busca aceitar letras maiúsculas e minúsculas
 
+
+//linha do RegExp:     r  = new RegExp(this.value,"gi")
+
+//isso aqui está funcionando:
+const input = document.querySelector(".inputpesquisa");
+const inputSemAcento = input.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+console.log(inputSemAcento);
